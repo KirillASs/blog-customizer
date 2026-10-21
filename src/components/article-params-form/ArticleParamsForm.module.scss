@@ -4,6 +4,8 @@
 	width: 616px;
 	height: 100%;
 	overflow: scroll;
+	background-color: #fff;
+	border-right: 1px solid #000;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
@@ -21,12 +23,18 @@
 	height: auto;
 	min-height: 100%;
 	padding: 50px 31px;
-	background-color: #fff;
-	border-right: 1px solid #000;
+	overflow-x: visible; 
 }
 
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
 	margin-top: auto;
+}
+
+.fields {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-block-end: 40px;
 }
